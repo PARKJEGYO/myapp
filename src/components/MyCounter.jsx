@@ -10,7 +10,7 @@ const MyCounter = () => {
     // };
     // const onClickCntDown = () => {
     //     setNum(num - 1);
-    // };
+    // }; 테스트
     const onClickCntUp = () => setNum(num => num + 1);
     const onClickCntDown = () => setNum(num => num - 1);
 
