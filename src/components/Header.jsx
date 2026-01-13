@@ -1,4 +1,5 @@
 import MyCompo from "./MyCompo";
+import MyTodos from "./MyTodos";
 
 const Header = () => {
     return (
@@ -11,6 +12,7 @@ const Header = () => {
             }}  >
                 Header
                 <MyCompo color='purple'>Welcome to Seoul</MyCompo>
+                <MyTodos />
             </header>
         </>
     );

@@ -1,4 +1,5 @@
 import MyCounter from "./MyCounter";
+import MyPerson from "./MyUseState";
 
 const Content = () => {
     return (
@@ -11,6 +12,8 @@ const Content = () => {
             // lineHeight: '100px'
         }}>
             <MyCounter />
+            <MyPerson />
+
         </main>
 
     </>
