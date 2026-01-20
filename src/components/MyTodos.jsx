@@ -29,7 +29,8 @@ const MyTodos = () => {
 
     // handleUpdate Function
     const handleUpdate = (id) => {
-        const updatedTodos = todos.map(todo => {    
+        const updatedTodos = todos.map(todo => {  
+        })}
     return (
         <>
 
@@ -42,11 +43,11 @@ const MyTodos = () => {
                                 todo.isUpdating ? (
                                     <>
                                         <input type="text" />
-                                        <button>Save</button> <button>Delete</button> &nbsp;
+                                        <button>Save</button> <button>Cancel</button> &nbsp;
                                     </> 
                                 ) : (
                                     <>
-                                        13413134134134 : 마트에서 장보기 <button>Update</button>
+                                        {todo.text} &nbsp;
                                         <button onClick={ () => handleUpdate(todo.id) }>Update</button> &nbsp;
                                     </>
                                 )
